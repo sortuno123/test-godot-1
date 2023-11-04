@@ -1,5 +1,15 @@
-[gd_scene format=3 uid="uid://dwakxd40v0dtc"]
+[gd_scene load_steps=3 format=3 uid="uid://dwakxd40v0dtc"]
+
+[ext_resource type="Texture2D" uid="uid://dj0ln2eqfto0y" path="res://icon.svg" id="1_2p4yl"]
+[ext_resource type="Texture2D" uid="uid://bjkjppoo1db6n" path="res://resources/graphics/car/main.png" id="2_yr24g"]
 
 [node name="Level1" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-8.99999, -2)
+scale = Vector2(2.38281, 2.33984)
+texture = ExtResource("1_2p4yl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(88.9705, 53.4224)
+texture = ExtResource("2_yr24g")
